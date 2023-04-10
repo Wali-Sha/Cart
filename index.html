@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fruits Shop Cart</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1 class="glow">Fruits Shop Cart</h1>
+		<div class="items">
+			<div class="item">
+				<img src="apple.jpg">
+				<h3>Apples</h3>
+				<input type="number" id="apples" value="0" min="0">
+			</div>
+			<div class="item">
+				<img src="bananas.jpg">
+				<h3 class="glow1">Bananas</h3>
+				<input type="number" id="bananas" value="0" min="0">
+			</div>
+			<div class="item">
+				<img src="oranges.jpg">
+				<h3>Oranges</h3>
+				<input type="number" id="oranges" value="0" min="0">
+			</div>
+			<div class="item">
+				<img src="grapess.jpg">
+				<h3>Grapes</h3>
+				<input type="number" id="grapes" value="0" min="0">
+			</div>
+			<div class="item">
+				<img src="pineapples.avif">
+				<h3>Pineapple</h3>
+				<input type="number" id="pineapple" value="0" min="0">
+			</div>
+		</div>
+		<div class="total">
+			<button onclick="calculateTotal()">Calculate Total</button>
+            <br>
+			<h2>Total Items: <span id="totalItems">0</span></h2>
+			<h2>Total Cost: <span id="totalCost">RS0.00</span></h2>
+		</div>
+	</div>
+	<br>
+    <div class="footer">
+        <p class="glow3">Order Now & get a free deleivery</p>
+      </div>
+	<script src="index.js"></script>
+</body>
+</html>
